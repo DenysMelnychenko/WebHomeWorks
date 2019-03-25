@@ -5,7 +5,7 @@ Note: Don't forget to add tomcat user in tomcat-users.xml and maven settings.xml
   < role rolename="manager-gui"/></br>
   < role rolename="manager-script"/></br>
   < user username="admin" password="password" roles="manager-gui,manager-script" /></br>
-< /tomcat-users></br>
+< /tomcat-users></br></br>
 
 manager-script role enables applications i.e., maven, to deploy jar/war to application server.</br>
 
