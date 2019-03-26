@@ -21,7 +21,7 @@
 <input type="text" name = "second" />
 </td>
 <td>
-<input type="submit" value = "SEND" />
+<input type="submit" value = "Calculate" />
 </td>
 </tr>
 </form>
