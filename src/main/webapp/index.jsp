@@ -1,17 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
 <html>
+<head>
+<meta charset="ISO-8859-1">
+<title>index</title>
+</head>
 <body>
 <center>
 <table border = "0">
-<form action = "">
+<form action = "answer.jsp">
 <tr>
 <td>
-<input type = "number" name = "first" />
+<input type = "text" name = "first" />
 </td>
 <td>
 <input type = "text" name = "sign" />
 </td>
 <td>
-<input type="number" name = "second" />
+<input type="text" name = "second" />
 </td>
 <td>
 <input type="submit" value = "SEND" />
@@ -22,3 +29,4 @@
 </center>
 </body>
 </html>
+
